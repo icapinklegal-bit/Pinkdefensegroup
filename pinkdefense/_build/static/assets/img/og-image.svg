@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" width="1200" height="630">
+<defs><linearGradient id="g" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#E8C766"/><stop offset=".55" stop-color="#C9A227"/><stop offset="1" stop-color="#F08A8A"/></linearGradient>
+<radialGradient id="r" cx=".2" cy=".1" r=".9"><stop offset="0" stop-color="#4A2228"/><stop offset="1" stop-color="#1E1315"/></radialGradient></defs>
+<rect width="1200" height="630" fill="url(#r)"/>
+<rect x="0" y="600" width="1200" height="30" fill="url(#g)"/>
+<path d="M150 150 L250 186 V262 C250 322 206 362 150 382 C94 362 50 322 50 262 V186 Z" fill="none" stroke="url(#g)" stroke-width="10" transform="translate(40,40)"/>
+<text x="190" y="370" text-anchor="middle" font-family="Montserrat,Arial,sans-serif" font-size="110" font-weight="800" fill="url(#g)">P</text>
+<text x="350" y="300" font-family="Montserrat,Arial,sans-serif" font-size="110" font-weight="800" fill="#fff">Pink<tspan fill="url(#g)">Defense</tspan></text>
+<text x="354" y="370" font-family="Montserrat,Arial,sans-serif" font-size="34" font-weight="600" fill="#F8C4C0">Houston &amp; Fort Bend County Attorneys</text>
+<text x="354" y="430" font-family="Montserrat,Arial,sans-serif" font-size="26" font-weight="700" fill="#E8C766" letter-spacing="2">AFFILIATE OF WALTER J. PINK &amp; PINK LAW ENTERPRISES</text>
+<text x="354" y="500" font-family="Montserrat,Arial,sans-serif" font-size="40" font-weight="800" fill="#fff">(832) 979-0882</text>
+</svg>

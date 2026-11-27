@@ -1,0 +1,189 @@
+{
+  "cleanUrls": true,
+  "trailingSlash": true,
+  "redirects": [
+    {
+      "source": "/contact-us",
+      "destination": "/contact/",
+      "permanent": true
+    },
+    {
+      "source": "/attorney-profile",
+      "destination": "/attorneys/",
+      "permanent": true
+    },
+    {
+      "source": "/home/why-us",
+      "destination": "/why-us/",
+      "permanent": true
+    },
+    {
+      "source": "/results",
+      "destination": "/case-results/",
+      "permanent": true
+    },
+    {
+      "source": "/policies",
+      "destination": "/frequently-asked-question-faq/",
+      "permanent": true
+    },
+    {
+      "source": "/practice-areas/:cat/:sub",
+      "destination": "/:cat/:sub/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/:path*",
+      "destination": "/resources/",
+      "permanent": true
+    },
+    {
+      "source": "/video-embed/:path*",
+      "destination": "/videos/",
+      "permanent": true
+    },
+    {
+      "source": "/videos/:slug",
+      "destination": "/videos/",
+      "permanent": true
+    },
+    {
+      "source": "/comments/:path*",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/feed",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/:path*/feed",
+      "destination": "/:path*/",
+      "permanent": true
+    },
+    {
+      "source": "/wp-admin/:path*",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/wp-json/:path*",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/wp-content/:path*",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/dwi-dui/austin-police-department",
+      "destination": "/dwi-dui/houston-police-department/",
+      "permanent": true
+    },
+    {
+      "source": "/student-defense/ut-student-disciplinary-hearings",
+      "destination": "/student-defense/university-disciplinary-hearings/",
+      "permanent": true
+    },
+    {
+      "source": "/expunctions-record-sealing/sealing-criminal-record-process-in-texas-austin-lawyer-for-sealing-records",
+      "destination": "/expunctions-record-sealing/sealing-criminal-records/",
+      "permanent": true
+    },
+    {
+      "source": "/dwi-dui/ignitioninterlock-scramdevice-portablealcoholmonitor",
+      "destination": "/dwi-dui/scram-and-alcohol-monitoring/",
+      "permanent": true
+    },
+    {
+      "source": "/theft-property-crimes/theft-by-check/forms",
+      "destination": "/theft-property-crimes/theft-by-check/",
+      "permanent": true
+    },
+    {
+      "source": "/about-houston-attorney-walter-j-pink",
+      "destination": "/about/",
+      "permanent": true
+    },
+    {
+      "source": "/augustin-t-pink",
+      "destination": "/attorneys/augustin-t-pink/",
+      "permanent": true
+    },
+    {
+      "source": "/ishmael-g-a-pink",
+      "destination": "/attorneys/ishmael-pink/",
+      "permanent": true
+    },
+    {
+      "source": "/clement-b-pink",
+      "destination": "/attorneys/",
+      "permanent": true
+    },
+    {
+      "source": "/faq",
+      "destination": "/frequently-asked-question-faq/",
+      "permanent": true
+    },
+    {
+      "source": "/review-us",
+      "destination": "/testimonials/",
+      "permanent": true
+    },
+    {
+      "source": "/llms-info",
+      "destination": "/llms.txt",
+      "permanent": true
+    },
+    {
+      "source": "/business-litigation",
+      "destination": "https://www.pinkbusiness.com/",
+      "permanent": true
+    },
+    {
+      "source": "/business-litigation/:path*",
+      "destination": "https://www.pinkbusiness.com/",
+      "permanent": true
+    },
+    {
+      "source": "/personal-injury",
+      "destination": "https://www.pinkinjury.com/",
+      "permanent": true
+    },
+    {
+      "source": "/personal-injury/:path*",
+      "destination": "https://www.pinkinjury.com/",
+      "permanent": true
+    }
+  ],
+  "headers": [
+    {
+      "source": "/assets/(.*)",
+      "headers": [
+        {
+          "key": "Cache-Control",
+          "value": "public, max-age=604800"
+        }
+      ]
+    },
+    {
+      "source": "/(.*)",
+      "headers": [
+        {
+          "key": "X-Content-Type-Options",
+          "value": "nosniff"
+        },
+        {
+          "key": "Referrer-Policy",
+          "value": "strict-origin-when-cross-origin"
+        },
+        {
+          "key": "X-Frame-Options",
+          "value": "SAMEORIGIN"
+        }
+      ]
+    }
+  ]
+}
